@@ -27,7 +27,7 @@ class QuotesViewModel : ViewModel() {
         return realm.quoteService().quotesSize() != 0
     }
 
-    fun fetchQuotes(){
+    fun fetchQuotes() {
         val compositeDisposable = CompositeDisposable()
         compositeDisposable.add(
             ApiService.buildService().fetchQuotes()

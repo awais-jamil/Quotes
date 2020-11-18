@@ -51,7 +51,7 @@ class QuotesFragment : Fragment() {
         Handler().postDelayed({
             viewPager.currentItem += 1
             autoSwitcher()
-        }, 5000)
+        }, 4000)
 
     }
 }
